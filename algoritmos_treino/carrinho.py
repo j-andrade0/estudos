@@ -1,6 +1,6 @@
 # Definicao dos estoques
 estoque_produto_1 = 10
-estoque_produto_2 = 4
+estoque_produto_2 = 2
 estoque_produto_3 = 0
 
 
@@ -11,7 +11,7 @@ carrinho = []
 # Criacao dos 3 produtos
 produto1 = {'id': 1, 'nome':'produto1', 'valor': 150, 'tipo': 'normal'}
 produto2 = {'id': 2, 'nome':'produto2', 'valor': 100, 'tipo': 'especial'}
-produto3 = {'id': 3, 'nome':'produto3', 'valor': 120, 'tipo': 'normal'}
+produto3 = {'id': 3, 'nome':'produto3', 'valor': 228, 'tipo': 'normal'}
 
 
 # DEFINICAO DOS METODOS AUXILIARES:
