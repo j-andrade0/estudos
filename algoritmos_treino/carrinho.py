@@ -70,7 +70,7 @@ def valor_final():
     valor_total = somar_carrinho() + calcular_taxa_entrega()
 
     # Aplicando desconto, se a compra for de valor maior que 200 reais
-    if valor_total > 200:
+    if valor_total >= 200:
         valor_total = valor_total - ((valor_total / 100) * 10)
     
     return valor_total
@@ -127,3 +127,4 @@ corrigir_preco(produtos_a_corrigir_preco)
 # Exibir carrinho e valor final da compra
 mostrar_carrinho()
 print(valor_final())
+
