@@ -9,7 +9,7 @@
     Em config/dev.json altere o usuário e senha do PostgreSQL no valor do campo SQLALCHEMY_DATABASE_URI onde estão destacados em maiúsculo: 
     USUARIO:SENHA.
     
-    Na pasta do projeto, instale as libs com o comando: 
+    Na pasta do projeto, instale as libs com o comando (se preferir, utilize o VirtualEnv para separar das libs locais): 
     pip install -r requirements.txt
 
     Execute jwt_login/app.py.
