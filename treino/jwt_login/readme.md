@@ -26,6 +26,6 @@
     senha(string)
 
 ## Respostas da API:
-http://127.0.0.1:5000/usuario deverá retornar status code 201 e a mensagem "msg: Usuario criado"
+    http://127.0.0.1:5000/usuario deverá retornar status code 201 e a mensagem "msg: Usuario criado"
 
-http://127.0.0.1:5000/login deverá retornar status code 200 e a mensagem "acess_token: " seguido da String contendo o token de acesso gerado pelo backend da aplicação
+    http://127.0.0.1:5000/login deverá retornar status code 200 e a mensagem "acess_token: " seguido da String contendo o token de acesso gerado pelo backend da aplicação
