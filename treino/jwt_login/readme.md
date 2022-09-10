@@ -3,7 +3,9 @@
     onde é verificado se as informações batem com o que foi previamente cadastradas no banco de dados PostgreSQL.
 
 ## Ferramentas necessárias: 
-    PostgreSQL, Python 3x (libs necessárias estão no arquivo requirements.txt), Postman para testes manuais da api.
+    Backend:
+        PostgreSQL, Python 3x (libs necessárias estão no arquivo requirements.txt).
+    Frontend:
 
 ## Como executar:
     Em config/dev.json altere o usuário e senha do PostgreSQL no valor do campo SQLALCHEMY_DATABASE_URI onde estão destacados em maiúsculo: 
