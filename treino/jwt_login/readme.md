@@ -1,6 +1,6 @@
 # Informações sobre o projeto:
     Projeto feito para atividade de autenticação com JWT, possuindo apenas cadastro de usuário e login,
-    onde é verificado se as informações batem com o que foi previamente cadastradas no banco de dados PostgreSQL.
+    onde é verificado se as informações batem com as que foram previamente cadastradas no banco de dados PostgreSQL.
 
 ## Ferramentas necessárias: 
     Backend:
